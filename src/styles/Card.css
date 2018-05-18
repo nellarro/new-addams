@@ -1,0 +1,11 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+.card {
+  height: 20em;
+  width: 15em;
+}
